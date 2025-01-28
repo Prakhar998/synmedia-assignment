@@ -1,0 +1,30 @@
+{
+  "name": "synmedia-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prakhar998/synmedia-assignment.git"
+  },
+  "keywords": [],
+  "author": "Prakhar Troipathi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prakhar998/synmedia-assignment/issues"
+  },
+  "homepage": "https://github.com/Prakhar998/synmedia-assignment#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
