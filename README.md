@@ -68,8 +68,13 @@ Copy
 npm run dev
 API Endpoints
 Endpoint	Method	Description
+
 /api/book	POST	Book a room.
+
 /api/booking/:email	GET	View booking details by email.
+
 /api/guests	GET	View all guests currently staying in the hotel.
+
 /api/cancel	POST	Cancel a booking.
+
 /api/modify	POST	Modify a booking (check-in/check-out dates).
